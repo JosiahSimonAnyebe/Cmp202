@@ -1,12 +1,12 @@
-public class Animal {
-    String name;
-
+public class Aquatic extends Animal {
+    @Override
     String move() {
-        return "Moves by walking";
+        return "moves by swimming";
     }
 
-    boolean isALive() {
-        return true;
+    public static void main(String[] args) {
+        Aquatic fish = new Aquatic();
+        fish.name = "Catfish";
+        System.out.println("\n" + fish.name + " " + fish.move());
     }
-
 }
