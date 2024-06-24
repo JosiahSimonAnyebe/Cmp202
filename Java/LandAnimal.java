@@ -5,12 +5,12 @@ public class LandAnimal extends Animal {
     }
 
     public static void main(String[] args) {
-        LandAnimal lion = new LandAnimal();
-        LandAnimal monkey = new LandAnimal();
-        lion.name = "mufasa";
-        monkey.move();
-        System.out.println(lion.name);
-        System.out.println(monkey.move());
+        LandAnimal tiger = new LandAnimal();
+        LandAnimal elephant = new LandAnimal();
+        tiger.name = "musa";
+        elephant.move();
+        System.out.println(tiger.name);
+        System.out.println(elephant.move());
     }
 
 }
