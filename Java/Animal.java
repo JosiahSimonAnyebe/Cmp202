@@ -1,12 +1,12 @@
-package Java;
 public class Animal {
     String name;
-    String move(){
+
+    String move() {
         return "Moves by walking";
     }
-    boolean isALive(){
+
+    boolean isALive() {
         return true;
     }
-
 
 }
